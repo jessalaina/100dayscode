@@ -1,0 +1,18 @@
+.animal {
+    align-items: center;
+    background-color: rgb(229, 248, 223);
+    border-radius: 5px; 
+    color: black;
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    height: 3em;
+    justify-content: center;
+    text-align: center;
+    width: 10em;
+}
+
+.active {
+    border: 1px solid rgb(214, 128, 225);
+    color: rgb(214, 128, 225);
+}
