@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:wght@400;500&display=swap');
+
+body {
+    background: url('imgs/hourglass.jpg') no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    align-items: center;
+    background-color: rgba(210, 209, 209, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title {
+    color: #6f0180;
+    font-size: 6rem;
+}
+
+.timer {
+    font-size: 3rem;
+}
+
+button {
+    background-color: rgb(210, 167, 29);
+    border: none;
+    box-shadow: 1px 2px 3px 1px rgb(86, 86, 86);
+    color:rgb(26, 26, 26);
+    font-size: 1rem;
+    padding: .3em .8em;
+    margin: 0 1em;
+}
