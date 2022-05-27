@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(160, 226, 221, .5), rgba(26, 177, 107, .5)), url("imgs/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 2em;
+}
+
+.countdown {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-top: 3em;
+    text-align: center;
+}
