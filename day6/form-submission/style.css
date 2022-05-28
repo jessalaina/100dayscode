@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    background-color: antiquewhite;
+    margin: 4em auto;
+    max-width: 250px;
+    padding: 2.5em;
+}
+
+input {
+    display: block;
+    margin: 1em auto;
+    padding: .5em;
+}
