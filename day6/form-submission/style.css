@@ -15,3 +15,11 @@ input {
     margin: 1em auto;
     padding: .5em;
 }
+
+.success {
+    border: 2px solid limegreen;
+}
+
+.error {
+    border: 2px solid crimson;
+}
