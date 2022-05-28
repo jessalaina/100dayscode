@@ -1,0 +1,43 @@
+button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    padding: 6px 10px;
+}
+
+.popup-wrapper {
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.popup {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.popup a {
+    background: crimson;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
