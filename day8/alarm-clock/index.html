@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+
+    <div id="clock">
+        <h1>Current Time</h1>
+        <div class="current-time">
+        </div>
+    </div>
+
+    <div class="create-alarm">
+        <h2>Set Alarm</h2>
+        <div class="form-actions">
+            <form>
+                <div class="alarm-inputs">
+                    <input type="number" name="hour" placeholder="Enter Hours" min="0" max="12" required>
+                    <input type="number" name="min" placeholder="Enter Minutes" min="0" max="60" required>
+                    <input type="number" name="sec" placeholder="Enter Seconds" min="0" max="60" required>
+                    <select name="dayNight" required>
+                        <option value="" selected disabled>Day or Night</option>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="active-alarm">
+            <div class="alarm-text"></div>
+            <button id="clear-alarm">Clear Alarm</button>
+        </div>
+        <audio id="alarm-audio"></audio>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
