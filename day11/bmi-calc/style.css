@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #800033;
+    background-image: url("imgs/insp-geo.png");
+    color: #fff;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    height: 85vh;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding: 1em;
+}
+
+.submit {
+    background-color: #fff;
+    border: none;
+    color: #800033;
+    font-weight: 600;
+    padding: 0.8em 0;
+}
+
+.submit:hover {
+    background-color: goldenrod;
+    color: #fff;
+}
+
+.bmi {
+    max-width: 18em;
+    text-align: center;
+}
+
