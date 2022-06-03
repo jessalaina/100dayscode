@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #17bd5f;
+    background-image: url("imgs/asfalt-dark.png");
+    color: #eee;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 5em;
+}
+
+.lscentence {
+    font-size: 1.2rem;
+}
+
+textarea {
+    height: 10em;
+    width: 22em;
+}
+
+.btn-container {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.toupper, .tolower, .title {
+    background-color: rgb(244, 86, 69);
+    border: none;
+    box-shadow: 1px 2px 4px #333;
+    color: #eee;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 1em 2em;
+}
+
+.toupper:hover, .tolower:hover, .title:hover {
+    background-color: #eee;
+    border: none;
+    border-radius: 50px;
+    color: rgb(244, 86, 69);
+    cursor: pointer;
+}
+
+.toupper:hover {
+    text-transform: uppercase;
+}
+
+.tolower:hover {
+    text-transform: lowercase;
+}
+
+.title:hover {
+    text-transform: capitalize;
+}
