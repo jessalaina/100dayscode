@@ -65,5 +65,7 @@ function drop(e) {
 // add show class depedent upon random number
 dropTarget.forEach(target => {
     target.classList.add('show');
-    console.log(target);
+    setTimeout(() => {
+    target.classList.remove('show');
+    }, 5000);
 })
