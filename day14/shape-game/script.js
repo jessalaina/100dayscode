@@ -66,6 +66,9 @@ function drop(e) {
 dropTarget.forEach(target => {
     target.classList.add('show');
     setTimeout(() => {
-    target.classList.remove('show');
+    target.classList.toggle('show');
+        setTimeout(() => {
+            target.classList.toggle('show');
+        }, 4000);
     }, 5000);
 })
