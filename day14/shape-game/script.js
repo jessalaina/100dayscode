@@ -8,7 +8,7 @@
 
 const shapes = document.querySelectorAll('.shape');
 const dragShape = document.querySelector('#drag');
-const dropTarget = document.querySelectorAll('.drag-target');
+const dropTarget = document.querySelectorAll('.drop-target');
 
 // dragstart event
 dragShape.addEventListener('dragstart', dragStart);
@@ -65,4 +65,5 @@ function drop(e) {
 // add show class depedent upon random number
 dropTarget.forEach(target => {
     target.classList.add('show');
-});
+    console.log(target);
+})

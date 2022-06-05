@@ -89,7 +89,7 @@ h3 {
 }
 
 .drop-target {
-    display: none;
+    /* display: none; */
 }
 
 .show {
