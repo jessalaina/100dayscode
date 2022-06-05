@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right, #f06863, #d8caa2);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 2em 0;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    padding: 0.8em;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.shapes-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    width: 30%;
+}
+
+.square {
+    background-color: #09E3BD;
+    height: 100px;
+    width: 100px;
+}
+
+.circle {
+    background-color: #09E3BD;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.triangle {
+    border-bottom: 100px solid #09E3BD;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 0;
+}
+
+.oval {
+    background: #09E3BD;
+    border-radius: 100px / 50px;
+    height: 80px;
+    width: 150px;
+}
+
+.trapezoid {
+    border-bottom: 4.5em solid #09E3BD;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 6em;
+  }
+
+.rect {
+    background-color: #09E3BD;
+    height: 80px;
+    width: 150px;
+  }
+
+.shapes-drop {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 50%;
+}
+
+.drop-target {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.word-square, .word-circle, .word-triangle, .word-oval, .word-trapezoid, .word-rect {
+    font-size: 2rem;
+    text-transform: uppercase;
+}

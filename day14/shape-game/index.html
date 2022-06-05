@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shape Game</title>
+</head>
+<body>
+    <h1>Let's Play the Shapes Game!</h1>
+    <h3>Drag and drop the shapes on the left to their matching word on the right.</h3>
+    <div class="score"></div>
+
+    <!-- possible to randomize shapes on screen using JS? -->
+    <div class="wrapper">
+        <div class="shapes-container">
+            <div id="drag" class="shape square" draggable="true"></div>
+            <div class="shape circle" draggable="true"></div>
+            <div class="shape triangle" draggable="true"></div>
+            <div class="shpae oval" draggable="true"></div>
+            <div class="shape trapezoid" draggable="true"></div>
+            <div class="shape rect" draggable="true"></div>
+        </div>
+        <!-- 
+            randomize order of these? 
+            make them "blink" on screen for a couple of seconds -- challenge to drop main shape
+        -->
+        <div class="shapes-drop">
+            <h3 class="drop-target word-square">square</h3>
+            <h3 class="drop-target word-circle">circle</h3>
+            <h3 class="drop-target word-triangle">triangle</h3>
+            <h3 class="drop-target word-oval">oval</h3>
+            <h3 class="drop-target word-trapezoid">trapezoid</h3>
+            <h3 class="drop-target word-rect">rectangle</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
