@@ -62,30 +62,7 @@ function drop(e) {
 }
 
 // loop through all targets
+// add show class depedent upon random number
 dropTarget.forEach(target => {
-    setInterval(randomizeShow(), 4000);
-})
-
-function randomizeShow() {
-    let randomize = Math.floor(Math.random() * 6) + 1;
-    switch(randomize) {
-        case 1:
-            dropTarget.classList.add('show');
-            break;
-        case 2:
-            dropTarget.classList.add('show');
-            break;
-        case 3:
-            dropTarget.classList.add('show');
-            break;
-        case 4:
-            dropTarget.classList.add('show');
-            break;
-        case 5:
-            dropTarget.classList.add('show');
-            break;
-        case 6:
-            dropTarget.classList.add('show');
-            break;
-    }
-}
+    target.classList.add('show');
+});
