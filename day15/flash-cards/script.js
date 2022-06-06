@@ -11,6 +11,7 @@ const newTitle = document.querySelector('.new-title');
 const newAnswer = document.querySelector('.new-answer');
 const flipBtns = document.querySelectorAll('.bi');
 
+
 // click to add flashcard
 save.addEventListener('click', addCard);
 
@@ -38,12 +39,9 @@ function addCard() {
     newAnswer.value = '';
 }
 
-// loop through flip buttons
-flipBtns.forEach(btn => {
-    btn.addEventListener('click', flipCard);
+// add ability to flip card to all buttons
+container.addEventListener('click', function(e) {
+    if (e.target.classList.contains('bi')) {
+        console.log('hi');
+    }
 })
-
-// add flip card abilities
-function flipCard() {
-    console.log('hi');
-}
