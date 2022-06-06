@@ -9,7 +9,6 @@
 body {
     background: linear-gradient(to bottom right, #f06863, #d8caa2);
     background-repeat: no-repeat;
-    height: 100vh;
     padding: 2em 0;
 }
 
@@ -39,13 +38,12 @@ h3 {
     display: flex;
 }
 
-.shapes-container {
+.container {
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 70vh;
-    justify-items: end;
-    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
 }
 
 .square {
@@ -88,14 +86,6 @@ h3 {
     height: 80px;
     width: 150px;
   }
-
-.shapes-drop {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    width: 50%;
-}
 
 .drop-target {
     display: none;

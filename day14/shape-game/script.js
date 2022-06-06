@@ -63,12 +63,13 @@ function drop(e) {
 
 // loop through all targets
 // add show class depedent upon random number
-dropTarget.forEach(target => {
-    target.classList.add('show');
-    setTimeout(() => {
-    target.classList.toggle('show');
+
+    dropTarget.forEach(target => {
+        target.classList.add('show');
         setTimeout(() => {
-            target.classList.toggle('show');
-        }, 4000);
-    }, 5000);
-})
+        target.classList.toggle('show');
+            setTimeout(() => {
+                target.classList.toggle('show');
+            }, 4000);
+        }, 5000);
+    });
