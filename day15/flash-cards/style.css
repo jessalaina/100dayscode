@@ -26,15 +26,6 @@ textarea {
     margin-top: 0.5em;
 }
 
-.save {
-    background-color: #184052;
-    border: none;
-    border-radius: 5px;
-    color: #eee;
-    font-weight: 500;
-    padding: 0.2em;
-}
-
 .container {
     align-items: center;
     display: flex;
