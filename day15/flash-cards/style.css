@@ -1,0 +1,62 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #184052;
+    background-image: url("imgs/diagmonds-light.png"); 
+}
+
+.user-input {
+    top: 10px;
+    left: 35em;
+    margin-bottom: 2em;
+}
+
+.new-title, .new-answer {
+    width: 14em;
+}
+
+textarea {
+    margin-top: 0.5em;
+}
+
+.save {
+    padding: 0.15em;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    height: 100vh;
+    justify-content: center;
+}
+
+.card {
+    background-color: aliceblue;
+    box-shadow: 1px 3px 3px #333;
+    height: 16em;
+    text-align: center;
+    width: 18rem;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.hide {
+    display: none;
+}
+
+.bi {
+    bottom: 8px;
+    position: absolute;
+    right: 10px;
+}
