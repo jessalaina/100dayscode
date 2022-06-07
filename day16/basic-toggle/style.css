@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    color: rgb(1, 17, 131);
+    width: 700px;
+    text-align: center;
+    margin: 3em auto;
+}
+
+.toggle {
+    background-color: rgb(1, 17, 131);
+    border: none;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.dark {
+    background-color: dimgray;
+    color: bisque;
+}
+
+.btn-light {
+    background-color: bisque;
+    color: dimgray;
+}

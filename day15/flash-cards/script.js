@@ -10,6 +10,7 @@ const container = document.querySelector('.container');
 const newTitle = document.querySelector('.new-title');
 const newAnswer = document.querySelector('.new-answer');
 const flipBtns = document.querySelectorAll('.bi');
+const cardFlip = document.querySelector('.card');
 
 
 // click to add flashcard
@@ -42,6 +43,6 @@ function addCard() {
 // add ability to flip card to all buttons
 container.addEventListener('click', function(e) {
     if (e.target.classList.contains('bi')) {
-        console.log('hi');
+        cardflip.classList.add('flip');
     }
 })
