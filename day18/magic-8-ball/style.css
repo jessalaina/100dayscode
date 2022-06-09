@@ -24,6 +24,11 @@ body {
     gap: 5px;
 }
 
+textarea {
+    height: 50px;
+    width: 200px;
+}
+
 .submit {
     background-color: lightgreen;
     border: none;
