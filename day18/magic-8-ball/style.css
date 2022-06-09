@@ -5,7 +5,7 @@
 }
 
 .container {
-    transform: translateX(550px) translateY(150px);
+    transform: translateX(450px) translateY(80px);
 }
 
 .bg-circle {
@@ -13,8 +13,8 @@
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: 4px 3px 3px 3px rgb(33, 32, 32);
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
 }
 
 .small-circle {
@@ -22,17 +22,17 @@
     border: 2px solid white;
     border-radius: 50%;
     box-shadow: 2px 4px 3px 3px #eee;
-    height: 200px;
-    transform: translateX(95px) translateY(95px);
-    width: 200px;
+    height: 320px;
+    transform: translateX(140px) translateY(130px);
+    width: 320px;
 }
 
 .triangle {
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 140px solid blue;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 190px solid blue;
     height: 0;
-    transform: translateX(10px) translateY(5px);
+    transform: translateX(25px) translateY(40px);
     width: 0;
     }
 }
