@@ -28,17 +28,20 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
 }
 
 .front {
-    display: none;
+    backface-visibility: hidden;
+    position: absolute;
 }
 
-/* .flip {
-    display: block;
-    transform: rotate(180deg);
-} */
-
 .back {
-    background-color: rgb(20, 179, 126);
+    backface-visibility: hidden;
+}
+
+.flip-card {
+    transform: rotateY(180deg);
 }
