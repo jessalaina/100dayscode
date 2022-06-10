@@ -7,10 +7,18 @@
 */
 
 const cards = document.querySelectorAll('.back');
+const front = document.querySelector('.front');
 
 // loop through cards adding click event listener
 cards.forEach(card => {
     card.addEventListener('click', (e) => {
-        console.log('hi');
+        // get current display of card
+        let display = front.style.display;
+
+        if (display === 'block') {
+            front.style.display = 'none';
+        } else {
+            front.style.display = 'block';
+        }
     });
 })

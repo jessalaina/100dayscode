@@ -32,8 +32,12 @@ body {
 
 .front {
     display: none;
-    transform: rotate(180deg);
 }
+
+/* .flip {
+    display: block;
+    transform: rotate(180deg);
+} */
 
 .back {
     background-color: rgb(20, 179, 126);
