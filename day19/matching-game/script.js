@@ -1,5 +1,6 @@
 /*
 ** onclick, flip card over
+** will figure out the rest of game later
 */
 
 const cards = document.querySelectorAll('.card');

@@ -24,6 +24,7 @@ body {
 
 .card {
     align-items: center;
+    background-color: rgb(35, 209, 201);
     border: 4px solid rgb(247, 94, 77);
     border-radius: 5px;
     display: flex;
