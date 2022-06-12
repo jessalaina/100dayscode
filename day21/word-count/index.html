@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Count</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Count</h1>
+        <form class="text-count">
+            <label for="text" class="ltext" name="ltext">Enter text here:</label>
+            <textarea name="text" id="text" cols="30" rows="10" onkeyup="countChars(this);"></textarea>
+            <p id="count">0 characters</p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
