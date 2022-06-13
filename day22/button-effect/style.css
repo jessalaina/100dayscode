@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(200 50% 5%);
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.ripple-btn {
+    appearance: none;
+    background-color: transparent;
+    border: 5px solid currentColor;
+    border-radius: 0.125em;
+    color: hsl(200 80% 65%);
+    cursor: pointer;
+    display: inline-grid;
+    font-size: 3rem;
+    isolation: isolate;
+    padding: 1em 3em;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.ripple-btn::before {
+    aspect-ratio: 1 / 1;
+    background-color: #fff;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    left: var(--x);
+    opacity: 0.5;
+    position: absolute;
+    top: var(--y);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 500ms;
+    width: 80%;
+    z-index: -1;
+}
+
+.pulse::before {
+    animation: pulse 500ms;
+}
+
+@keyframes pulse {
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
