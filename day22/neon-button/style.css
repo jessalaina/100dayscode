@@ -1,0 +1,74 @@
+/* Kevin Powel tutorial */
+
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-bg);
+    color: var(--clr-neon);
+    display: grid;
+    font-family: "Balsamiq Sans", cursive;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.neon-btn {
+    border: var(--clr-neon) .125em solid;
+    border-radius: 0.25em;
+    box-shadow: 
+    inset 0 0 0.5em 0 var(--clr-neon),
+    0 0 0.5em 0 var(--clr-neon);
+    color: currentColor;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 4rem;
+    padding: 0.25em 1em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 
+    0 0 0.125em hsl(0 0% 100% / 0.3), 
+    0 0 0.125em currentColor;
+}
+
+.neon-btn::before {
+    background-color: var(--clr-neon);
+    content: '';
+    filter: blur(1.2em);
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    pointer-events: none;
+    position: absolute;
+    top: 120%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    width: 100%;
+}
+
+.neon-btn::after {
+    bottom: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 100ms linear;
+}
+
+.neon-btn:hover, .neon-btn:focus {
+    background-color: var(--clr-neon);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+.neon-btn:hover::before, .neon-btn:focus::before,
+.neon-btn:hover::after, .neon-btn:focus::after {
+    opacity: 1;
+}
