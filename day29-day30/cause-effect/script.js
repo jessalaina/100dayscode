@@ -5,8 +5,8 @@ const para = document.createElement('p');
 
 let names = Object.values(people);
 
-names.forEach((name) => {
-    console.log(name);
-    para.innerHTML = name;
+for (let person of people) {
+    console.log(person);
+    para.innerHTML = person.name;
     mainContent.appendChild(para);
-})
+}
