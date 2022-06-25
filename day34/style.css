@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    transition: 2s all;
+}
+
+#first {
+    color: #eee;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+#second {
+    height: 100vh;
+}
+
+#third {
+    height: 100vh;
+}
+
+#fourth {
+    height: 50vh;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.orchid {
+    background-color: orchid;
+}
+
+.coral {
+    background-color: coral;
+}
