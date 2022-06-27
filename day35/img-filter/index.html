@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Filter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Filter</h1>
+        <header>
+            <ul>
+                    <li type="submit" value="outdoors">Outdoors</li>
+                    <li type="submit" value="animals">Animals</li>
+                    <li type="submit" value="beach">Beach</li>
+                    <li type="submit" value="flowers">Flowers</li>
+            </ul>
+            <div class="search">
+                <label for="search" class="lsearch"><img class="magnifier" src="imgs/magnifier.png"></label>
+                <input type="text" class="text-search" name="search" placeholder="Image searching for">
+            </div>
+        </header>
+        <main>
+            <img id="beach" data-value="beach" src="imgs/beach.jpg">
+            <img id="fireworks" data-value="outdoors" src="imgs/fireworks.jpg">
+            <img id="pier" data-value="beach" src="imgs/pier.jpg">
+            <img id="turtle" data-value="animals" src="imgs/turtle.jpg">
+            <img id="tulips" data-value="flowers" src="imgs/tulips.jpg">
+            <img id="fox" data-value="animals" src="imgs/fox.jpg">
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
