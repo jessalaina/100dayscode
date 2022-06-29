@@ -1,18 +1,16 @@
-const bubbles = document.getElementById('bubbles');
-const bubble = document.querySelectorAll('.bubble');
+const bubbles = document.querySelectorAll('.bubble');
 const reset = document.querySelector('.reset');
 
-for(const bub of bubble) {
-    bub.addEventListener('mouseover', (e) => {
-        console.log(e.target);
-        if (e.target === bub) {
-            bub.style.visibility = 'hidden';
+for(const bubble of bubbles) {
+    bubble.addEventListener('mouseover', (e) => {
+        if (e.target === bubble) {
+            bubble.style.visibility = 'hidden';
         }
     })
 }
 
 reset.addEventListener('click', () => {
-    for(const bub of bubble) {
-        bub.style.visibility = '';
+    for(const bubble of bubbles) {
+        bubble.style.visibility = '';
     }
 })
