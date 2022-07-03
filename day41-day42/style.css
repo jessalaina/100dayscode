@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    background-color: #eee;
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.section2 {
+    height: 100vh;
+}
+
+.section3 {
+    height: 100vh;
+}
+
+.section4 {
+    height: 100vh;
+}
