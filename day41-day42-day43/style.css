@@ -27,3 +27,14 @@ body {
 .section4 {
     height: 100vh;
 }
+
+#navlinks {
+    background-color: dodgerblue;
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+}
+
+a {
+    color: #fff;
+}
