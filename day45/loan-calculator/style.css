@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content {
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    width: 30em;
+}
+
+input {
+    padding: 0.8em;
+}
+
+.submit {
+    color: darkblue;
+    font-weight: 600;
+    padding: 0.8em 0;
+    width: 10em;
+}
