@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #eee;
+    align-items: center;
+    display: flex;
+    height: 1em;
+    justify-content: flex-end;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+    height: 100vh;
+}
+
+.section-1 {
+    background-color: blanchedalmond;
+}
+
+.section-2 {
+    background-color: aquamarine;
+}
+
+.section-3 {
+    background-color: coral;
+}
+
+.section-4 {
+    background-color: lightgoldenrodyellow;
+}
+
+li {
+    display: flex;
+    padding: 0.5em;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
