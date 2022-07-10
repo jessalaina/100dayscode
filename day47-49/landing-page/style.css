@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #454E13;
+    font-family: "Poppins", sans-serif;
+}
+
+nav h2 {
+    font-family: "Alex Brush", cursive;
+    font-size: 1.8rem;
+    display: flex;
+    left: 20px;
+    position: absolute;
+}
+
+.navbar {
+    background-color: rgba(217, 217, 217, 0.7)
+    ;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    height: 1em;
+    justify-content: flex-end;
+    padding: 1em;
+    position: absolute;
+    width: 100vw;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+    height: 100vh;
+}
+
+.section-1 {
+    background-attachment: fixed;
+    background-image: url("imgs/roses_unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-s1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.3em;
+    width: 40em;
+}
+
+.content-s1 h1 {
+    font-size: 6rem;
+}
+
+.content-s1 h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section-2 {
+    background-color: aquamarine;
+}
+
+.section-3 {
+    background-color: coral;
+}
+
+.section-4 {
+    background-color: lightgoldenrodyellow;
+}
+
+li {
+    display: flex;
+    padding: 0.5em;
+}
+
+a {
+    color: #454E13;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+section h2 {
+    visibility: hidden;
+}
